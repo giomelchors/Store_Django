@@ -1,0 +1,57 @@
+# Ignorar archivos y directorios generados por Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.~tmp~
+
+# Ignorar el archivo de configuración local de Django
+settings_local.py
+
+# Ignorar los archivos de migración de Django
+*/migrations/
+db.sqlite3
+
+# Ignorar archivos y directorios específicos de IDE y editores de texto
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos de registro y archivos generados durante la ejecución
+*.log
+logs/
+*.pid
+*.coverage
+
+# Ignorar archivos de entorno virtual y dependencias
+venv/
+env/
+*.env
+
+# Ignorar archivos de caché y compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos de generación estática (si está utilizando Django Staticfiles)
+staticfiles/
+
+# Ignorar archivos de medios (si está utilizando Django Media)
+media/
+
+# Ignorar archivos de respaldo
+*.bak
+
+# Ignorar archivos de configuración sensibles
+*.secret
+*.key
+*.password
+*.env
+*.pem
+*.p12
+*.cer
+
+# Agrega cualquier otro patrón de archivos o directorios que desees ignorar
